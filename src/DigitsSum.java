@@ -2,7 +2,7 @@ public class DigitsSum
 {
     public static void main(String[] args)
     {
-        int num=2510254544, rem = 0, sum = 0, temp;
+        int num=251044, rem = 0, sum = 0, temp;
         temp = num;
         while (num > 0)
         {
