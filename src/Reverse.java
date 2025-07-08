@@ -5,5 +5,10 @@ public class Reverse {
 
             System.out.println("Revers of A is "+ a[i] + " ");
         }
+        float sum = 0, ans;
+        for(int i = 0; i< a.length; i++){
+            sum = sum + a[i];
+        }
+        System.out.println("Average"+ sum/a.length);
     }
 }
