@@ -1,5 +1,5 @@
-public class a3DArray {
-        public static void main(String args[]) {
+public class a3Darray {
+    public static void main(String args[]) {
 
             int my3DArray [ ][ ][ ] = new int [3][4][5];
 
