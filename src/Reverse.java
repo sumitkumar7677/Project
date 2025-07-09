@@ -3,7 +3,7 @@ public class Reverse {
         int a[] = {10,20,20,40,39};
         for(int i = 0; i<a.length ; i++){
 
-            System.out.println("Revers of A is "+ a[i] + " ");
+            System.out.println("Revers of A iss "+ a[i] + " ");
         }
         float sum = 0, ans;
         for(int i = 0; i< a.length; i++){
