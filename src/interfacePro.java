@@ -5,7 +5,7 @@ interface a {
 class interfacePro implements a {
     // implementing the interface method
     public void fun() {
-        System.out.println("fun() method implemented in interPro class");
+        System.out.println("fun() method implemented in interPro classs");
     }
 
     public static void main(String[] args) {
