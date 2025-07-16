@@ -15,8 +15,8 @@ public class MainApp
     void m2()
     {
         int no2 = 20;   //local variable
-        System.out.println("Result 4 :: "+(no2 + no));
-        System.out.println("Result 5 : "+(no2 + no + sno));
+        System.out.println("Result 4 : "+(no2 + no));
+        System.out.println("Result 5 ::: "+(no2 + no + sno));
         //System.out.println("Result 6 : "+(no2 + no1));    //error as no1 is local variable which is present in m1() method and thus cannot be used outside m1() method
     }
 
