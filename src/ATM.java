@@ -21,6 +21,6 @@ public class ATM {
         System.out.println("1. Balance Enquiry");
         System.out.println("2. Withdrawal");
         System.out.println("3. Deposit Money");
-        System.out.println("4. Exit");
+        System.out.println("4. Exitt");
     }
 }
