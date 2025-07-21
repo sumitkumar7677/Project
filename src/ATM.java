@@ -11,7 +11,7 @@ public class ATM {
             System.out.println("English Selected");
         }
         else if(a ==2){
-            System.out.println("Hindi Selected");
+            System.out.println("Hindi Selectedd");
         }
         else{
             System.out.println("Invalid Language Selected");
