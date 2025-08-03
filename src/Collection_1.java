@@ -17,7 +17,7 @@ class Bike{
 class Order{
       Order(int items) {
          for (int i = 0; i <= items; i++) {
-             System.out.println("My Secondd Bike Created");
+             System.out.println("My Second  Bike Created");
          }
      }
 
