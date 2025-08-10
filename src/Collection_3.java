@@ -9,5 +9,16 @@ public class Collection_3 {
 
         // Print size of collection
         System.out.println(col.size());
+        System.out.println(Capacity(col));
+
     }
+    public static int Capacity(List<String> col) {
+        return col.size();
+
+    }
+    public static int getElement(List<Integer> col, int index){
+        if index >= 0 && index < col.size()
+    }
+
+
 }
