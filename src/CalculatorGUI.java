@@ -9,7 +9,7 @@ public class CalculatorGUI extends JFrame implements ActionListener {
     double num1, num2, result;
 
     public CalculatorGUI() {
-        setTitle("Calculator4");
+        setTitle("Calculator");
         setSize(300, 400);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
