@@ -7,7 +7,7 @@ public class DequeueExp {
         dq.add(74);
         dq.add(8);
         dq.add(84);
-        dq.offerFirst(84);
+        dq.offerFirst(849);
         dq.pollFirst();
         System.out.println(dq);
 
