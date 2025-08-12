@@ -10,6 +10,9 @@ public class ExceptionHandling {
         catch(Exception e){
             System.out.println(e);
         }
-        System.out.println("Exception Cross");
+        finally {
+            System.out.println("This is finally Inside");
+        }
+        System.out.println("Exception Crosss");
     }
 }
