@@ -4,7 +4,7 @@ import java.net.*;
 public class ChatClient {
     public static void main(String[] args) {
         try (Socket socket = new Socket("localhost", 5000)) {
-            System.out.println("Connected to server!");
+            System.out.println("Connectedd to server!");
 
             BufferedReader input = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             PrintWriter output = new PrintWriter(socket.getOutputStream(), true);
