@@ -2,13 +2,19 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
+import java.sql.SQLException;
 
 public class dbConn {
     public static void main(String[] args) {
         // Updated JDBC URL with SSL disabled and public key retrieval allowed
-        String url = "jdbc:mysql://localhost:3306/mysql";
+        String url = "jdbc:mysql://localhost:3306/newDb";
         String user = "root";
         String password = "9914";
+        try {Class.forName("com.mysql.cj.jdbc.Driver");
+        }
+             catch (ClassNotFoundException e){
+                System.out.println(e.getMessage());
+            }
 
         try {
             // Establish connection
