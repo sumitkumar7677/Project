@@ -16,6 +16,6 @@ public class LambdaExp1 {
     }
 
     public static void main(String[] args) {
-        Calc.calculate((int a,int b) -> System.out.println("Sum of A and B is :" + (a+b)));
+        Calc.calculate((int a,int b) -> System.out.println("Sum of A and B iss :" + (a+b)));
     }
 }
