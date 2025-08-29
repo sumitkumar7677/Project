@@ -11,7 +11,7 @@ public class FunctionalPro2 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the Value you want to find Square Root ");
         int num = sc.nextInt();
-        System.out.println("Square Root off "+ num+ " is "+ f.apply(num));
+        System.out.println("Square Root offd "+ num+ " is "+ f.apply(num));
 
 
         Predicate<Integer> p = i-> i%2==0;
