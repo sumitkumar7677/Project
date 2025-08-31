@@ -1,16 +1,4 @@
 import java.util.*;
-
-class myComparator implements Comparator<Integer>{
-    public int compare(Integer I1, Integer I2) {
-        if (I1 < I2) {
-            return -1;
-        } else if (I1 > I2) {
-            return +1;
-        } else {
-            return 0;
-        }
-    }
-}
 class Comp{
     public static void main(String [] args){
         ArrayList<Integer> l = new ArrayList<Integer>();
@@ -20,7 +8,10 @@ class Comp{
         l.add(65);
         l.add(532);
         System.out.println(l);
-        Collections.sort(l,new myComparator());
+        Comparator<Integer> c = (I1,I2) ->(I1 < I2)? -1: (I1 > I2) ? 1:0;
+        Collections.sort(l,c);
         System.out.println(l);
+
+
     }
 }
